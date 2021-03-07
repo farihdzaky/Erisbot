@@ -97,12 +97,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-KAI_IMG = "https://telegra.ph/file/8c30301988d1b518aa879.jpg"
+KAI_IMG = "https://telegra.ph/file/d9f2b5c327e50898a95e8.jpg"
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project via [Telegram](https://t.me/Anomaliii) or by contacting @Anomaliii \
+DONATE_STRING = """Hello, glad to hear you want to donate!
+ You can support the project via [Telegram](https://t.me/Xlaaf) or by contacting @Xlaaf \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @ZeroBotSupport."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @Erissupport."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -187,7 +187,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="Bakku", callback_data="help_back")]]
                     ),
                 )
             elif args[0].lower() == "markdownhelp":
@@ -219,7 +219,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="Add to your group",
+                                text="🌹 Add Eris to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -227,18 +227,18 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group", url=f"https://t.me/{SUPPORT_CHAT}"
+                                text="Support Group", url=f"https://t.me/erissupport"
                             ),
                             InlineKeyboardButton(
-                                text="Source code",
-                                url="https://github.com/Anomaliii/KaiRobot",
+                                text="Update 🔔",
+                                url="https://t.me/erisupdate",
                             ),
                         ],
                     ]
                 ),
             )
     else:
-        update.effective_message.reply_text("Yo, I'm Here!")
+        update.effective_message.reply_text("O Genki Desuka?")
 
 
 # for test purposes
@@ -295,7 +295,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Bakku", callback_data="help_back")]]
                 ),
             )
 
