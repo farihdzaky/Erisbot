@@ -83,7 +83,7 @@ HELP_STRINGS = """
 Hello. My Name Is Eris!
 I will cheer you up if you get bored. Arigatou!
 
-*Main* commands available: [ʕ·ᴥ·ʔ](https://telegra.ph/file/365118e22fa5dbd1c45a2.jpg)
+*Main* commands available: [•](https://telegra.ph/file/365118e22fa5dbd1c45a2.jpg)
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /donate: information on how to donate!
