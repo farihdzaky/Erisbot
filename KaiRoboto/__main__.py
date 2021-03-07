@@ -73,19 +73,17 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hi {}, my name is {}! 
 
-×× I am an Anime themed group management bot ××
-==========================
-`Maintained By` @Anomaliii
-==========================
-×× Find the list of available commands with /help ××
+Hello {} San My Name Is Eris Greyrat!
+I will cheer you up if you get bored! Add me to the group then type /help. Arigatou!
+
 """
 
 HELP_STRINGS = """
-Hey there! My name is *{}*.
-I'm an Anime themed group management Bot to help admins manage their groups! Have a look at the following for an idea of some of the things I can help you with.
-*Main* commands available:
+Hello. My Name Is Eris!
+I will cheer you up if you get bored. Arigatou!
+
+*Main* commands available: [ʕ·ᴥ·ʔ](https://telegra.ph/file/365118e22fa5dbd1c45a2.jpg)
  • /help: PM's you this message.
  • /help <module name>: PM's you info about that module.
  • /donate: information on how to donate!
