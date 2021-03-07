@@ -18,7 +18,11 @@
 </p>
 
 Kai is a simple bot modular solution to your group management. Concept and based taken from Saitama 
+## Deploy To Heroku
 
+`
+
+  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Roxy-sama/Erisbot)
 
 * Bot Link:  <a href="https://t.me/KaiiBot" alt="Kai Roboto"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kai-blue" /> </a>
 * Support Group: <a  href="https://t.me/ZeroBotSupport" alt="Zero Union"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Zero%20Bot%20Support-9cf" /> </a>
