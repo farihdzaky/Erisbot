@@ -24,7 +24,7 @@ Eris is a simple bot modular solution to your group management. Concept and base
 
   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Roxy-sama/Erisbot)
 
-* Bot Link:  <a href="https://t.me/erisboreasgreyratbor" alt="Eris Bot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kai
+* Bot Link:  <a href="https://t.me/erisboreasgreyratbot" alt="Eris Bot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-Kai
 -blue" /> </a>
 * Support Group: <a  href="https://t.me/Erissupport" alt="Eris Support"> <img  src="https://img.shields.io/badge/%F0%9F%92%A1-Eris%20Support%20-9cf" /> </a>
 
