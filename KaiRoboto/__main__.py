@@ -73,21 +73,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+Hey! My name is Oreki
+I am a student and will help you manage the group
+Type /help to find my features
+[Chitanda](t.me/ChitandaEru_robot)
 
-Hello {} San My Name Is Eris Greyrat!
-I will cheer you up if you get bored! Add me to the group then type /help. Arigatou!
 
 """
 
 HELP_STRINGS = """
-Hello. My Name Is Eris!
+Hello. My Name Is Oreki!
 I will cheer you up if you get bored. Arigatou!
 
-*Main* commands available: [•](https://telegra.ph/file/365118e22fa5dbd1c45a2.jpg)
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
+*Main* commands available: [•](https://telegra.ph/file/d856e543354139ab49bb9.jpg)
+ 🖤 /help: PM's you this message.
+ 🖤 /help <module name>: PM's you info about that module.
+ 🖤 /donate: information on how to donate!
+ 🖤 /settings:
    - in PM: will send you your settings for all supported modules.
    - in a group: will redirect you to pm, with all that chat's settings.
 {}
@@ -97,12 +99,12 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-KAI_IMG = "https://telegra.ph/file/d9f2b5c327e50898a95e8.jpg"
+KAI_IMG = "https://telegra.ph/file/4580c65426c069b88febd.mp4"
 
 DONATE_STRING = """Hello, glad to hear you want to donate!
  You can support the project via [Telegram](https://t.me/Xlaaf) or by contacting @Xlaaf \
  Supporting isnt always financial! \
- Those who cannot provide monetary support are welcome to help us develop the bot at @Erissupport."""
+ Those who cannot provide monetary support are welcome to help us develop the bot at @orekisupport."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -219,7 +221,7 @@ def start(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                text="🌹 Add Eris to your group",
+                                text="➕ Add Oreki to your group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -227,7 +229,7 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group", url=f"https://t.me/erissupport"
+                                text="🎗️ Support Group", url=f"https://t.me/OrekiSupport"
                             ),
                             InlineKeyboardButton(
                                 text="Update 🔔",
@@ -238,7 +240,7 @@ def start(update: Update, context: CallbackContext):
                 ),
             )
     else:
-        update.effective_message.reply_text("O Genki Desuka?")
+        update.effective_message.reply_text("Yo,How Are You?")
 
 
 # for test purposes
